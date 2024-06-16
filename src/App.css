@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -32,7 +32,29 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.card-styles {
+  box-shadow: 5px 10px 18px #b9b8b8;
+  position: fixed;
+  padding: 25px;
+  inset: 0px;
+  height: fit-content;
+  margin: auto;
+}
+
+.header-styles {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.container-styles {
+  box-shadow: 5px 10px 18px #b9b8b8;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 1%;
 }
